@@ -1,0 +1,204 @@
+Last login: Sat Mar 12 22:00:49 on ttys002
+❯ gh
+zsh: command not found: gh
+❯ $gh --version
+
+zsh: command not found: --version
+❯ gh --version
+
+zsh: command not found: gh
+❯ clear
+❯ assets
+zsh: command not found: assets
+❯ clear
+❯ lsc
+zsh: command not found: lsc
+❯ lsc
+zsh: command not found: lsc
+❯ lsd
+zsh: command not found: lsd
+❯ ls
+Applications              Monster.GamingKeyFrontend a.txt
+Desktop                   Monster.Msts.Form         dev
+Documents                 Movies                    getting-started
+Downloads                 Music                     monster-portal
+Frontend.EMOS             Pictures                  schoolStuff
+Library                   Postman
+Monster.Admin             Public
+❯ cd dev
+❯
+❯ ls
+KCSoft    Templates courses   flutter   projects  temp      todo-app  writings
+❯ l
+total 56
+drwxr-xr-x  12 cengizhankose  staff   384B Mar  7 01:00 .
+drwxr-xr-x+ 76 cengizhankose  staff   2.4K Mar 12 22:29 ..
+-rw-r--r--@  1 cengizhankose  staff    12K Feb 28 11:26 .DS_Store
+-rw-r--r--   1 cengizhankose  staff    12K Nov 19 14:36 .cengizhankse.txt.swp
+drwxr-xr-x   5 cengizhankose  staff   160B Sep 14 15:29 KCSoft
+drwxr-xr-x   4 cengizhankose  staff   128B Sep 14 11:03 Templates
+drwxr-xr-x   6 cengizhankose  staff   192B Feb 15 10:38 courses
+drwxr-xr-x@ 27 cengizhankose  staff   864B Mar  3 06:34 flutter
+drwxr-xr-x   7 cengizhankose  staff   224B Mar  7 01:05 projects
+drwxr-xr-x   7 cengizhankose  staff   224B Mar 12 01:51 temp
+drwxr-xr-x  11 cengizhankose  staff   352B Jan 21 17:50 todo-app
+drwxr-xr-x   3 cengizhankose  staff    96B Sep 10  2021 writings
+❯ open .
+❯ mkdir starter-repos
+❯ ;s
+zsh: command not found: s
+❯ ls
+KCSoft        courses       projects      temp
+Templates     flutter       starter-repos todo-app
+❯ cd starter-repos
+❯ l;s
+total 0
+drwxr-xr-x   2 cengizhankose  staff    64B Mar 12 22:30 .
+drwxr-xr-x  12 cengizhankose  staff   384B Mar 12 22:30 ..
+zsh: command not found: s
+❯ ls
+❯ clear
+❯ mkdir ios-notes
+❯ mkdir js-notes
+❯ ls
+ios-notes js-notes
+❯ cd ios-notes
+❯ ls
+❯ code .
+❯ clear
+❯ brew l
+Error: Unknown command: l
+❯ brew
+Example usage:
+  brew search TEXT|/REGEX/
+  brew info [FORMULA|CASK...]
+  brew install FORMULA|CASK...
+  brew update
+  brew upgrade [FORMULA|CASK...]
+  brew uninstall FORMULA|CASK...
+  brew list [FORMULA|CASK...]
+
+Troubleshooting:
+  brew config
+  brew doctor
+  brew install --verbose --debug FORMULA|CASK
+
+Contributing:
+  brew create URL [--no-fetch]
+  brew edit [FORMULA|CASK...]
+
+Further help:
+  brew commands
+  brew help [COMMAND]
+  man brew
+  https://docs.brew.sh
+❯ brew list
+==> Formulae
+heroku		heroku-node	speedtest
+
+==> Casks
+font-fira-code		oracle-jdk-javadoc
+❯ brew uninstall swiftlint
+Error: No available formula with the name "swiftlint".
+❯ speedtest
+
+   Speedtest by Ookla
+
+     Server: Nida Telekom - ISTANBUL (id = 35771)
+        ISP: Turk Telekom
+    Latency:     6.05 ms   (0.70 ms jitter)
+   Download:    79.43 Mbps (data used: 112.8 MB)
+     Upload:     4.57 Mbps (data used: 8.8 MB)
+Packet Loss: Not available.
+ Result URL: https://www.speedtest.net/result/c/d6555c32-a107-4821-a0ff-2cb5c506e6b4
+❯ cd ..
+❯ ls
+ios-notes js-notes
+❯ cd ..
+❯ ls
+KCSoft        courses       projects      temp
+Templates     flutter       starter-repos todo-app
+❯ cd projects
+❯ ls
+coinbase-blockchain-app ios                     twitch-e-commerce
+flutter_deneme          system-monitoring
+❯ cd ios
+❯ ls
+Bankey
+❯ cd Bankey
+❯ ls
+Bankey           Bankey.xcodeproj
+❯ git status
+fatal: not a git repository (or any of the parent directories): .git
+❯ git init
+hint: Using 'master' as the name for the initial branch. This default branch name
+hint: is subject to change. To configure the initial branch name to use in all
+hint: of your new repositories, which will suppress this warning, call:
+hint:
+hint: 	git config --global init.defaultBranch <name>
+hint:
+hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+hint: 'development'. The just-created branch can be renamed via this command:
+hint:
+hint: 	git branch -m <name>
+Initialized empty Git repository in /Users/cengizhankose/dev/projects/ios/Bankey/.git/
+❯ git init .
+Reinitialized existing Git repository in /Users/cengizhankose/dev/projects/ios/Bankey/.git/
+❯ ls
+Bankey           Bankey.xcodeproj
+❯ clear
+❯ git add .
+❯ clear
+❯ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+# - researched CocoaPods .lock more carefully, thanks to Gokhan Celiker
+# 2013 updates:
+# - fixed the broken "save personal Schemes"
+# - added line-by-line explanations for EVERYTHING (some were missing)
+#profile
+
+
+####
+#  ..but if you're in the 1%, comment out the line "*.pbxuser"
+
+# .pbxuser: http://lists.apple.com/archives/xcode-users/2004/Jan/msg00193.html
+
+
+*.mode2v3
+
+!default.mode1v3
+
+#     project.pbxproj
+#           UserInterfaceState.xcuserstate
+#     /xcshareddata/
+#
+# c.f. http://guides.cocoapods.org/using/using-cocoapods.html#what-is-a-podfilelock
+# c.f. http://guides.cocoapods.org/using/using-cocoapods.html#should-i-ignore-the-pods-directory-in-source-control
+#
+#!Podfile.lock
+#
+# RUBY:
+#
+# c.f. http://yehudakatz.com/2010/12/16/clarifying-the-roles-of-the-gemspec-and-gemfile/
+#
+#!Gemfile.lock
+#
+# IDEA:
+#
+# c.f. https://www.jetbrains.com/objc/help/managing-projects-under-version-control.html?search=workspace.xml
+#
+#.idea/workspace.xml
+#
+# TEXTMATE:
+#
+# -- UNVERIFIED: c.f. http://stackoverflow.com/a/50283/153422
+#
+#tm_build_errors
+
+####
+# UNKNOWN: recommended by others, but I can't discover what these files
+~
